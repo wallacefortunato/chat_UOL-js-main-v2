@@ -1,0 +1,19 @@
+/** Variáveis de CSS */
+:root {
+    --bg-color: #E0E0E0;
+    --primary-color: #84CD7B;
+}
+
+html, body {
+    height: 100%;
+    background: var(--bg-color); 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+@import './header.css';
+@import './messages.css';
+@import './footer.css';
